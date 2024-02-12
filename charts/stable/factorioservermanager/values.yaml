@@ -12,6 +12,9 @@ persistence:
   fsmsaves:
     enabled: true
     mountPath: /opt/factorio/saves
+  fsmdata:
+    enabled: true
+    mountPath: /opt/fsm-data
 portal:
   open:
     enabled: true
